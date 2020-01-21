@@ -187,30 +187,32 @@ p {
 .project-image .thumbnail {
 	display: block;
 	text-align: center;
+	vertical-align: center; 
 }
 
 .thumbnail {
 	height: 100%;
 	border: none;
+	margin: auto;
 }
 
 
-.project-image > img {
+.project-image  img {
 	max-height: 200px;
 }
 
-.project-blurb > h2 {
+.project-blurb h2 {
 	color: #285d6d;
 	font-weight: 300;
 	margin: 20px 0;
+	font-size: 2.25em;
 }
 
-.project-blurb > h3 {
+.project-blurb  h3 {
 	color: #2e2e2e;
 	font-weight: 300;
-	font-size: 18pt;
-	line-height: 24pt;
-	margin: 20px 0;
+	font-size: 1.5em;
+	margin: 3% 0;
 }
 
 .project-blurb > h4 {
@@ -225,6 +227,7 @@ p {
 	display: block;
     max-width: 100%;
     height: auto;
+    margin: auto;
 }
 
 .row-right {
@@ -256,7 +259,7 @@ p {
 	display: block;
 	margin: auto;
 	margin-top: 50px;
-	max-width: 1000px;
+	max-width: 90%;
 	border-bottom: 3px solid #285d6d;
 }
 
@@ -320,7 +323,7 @@ p {
 
 .specs {
 	width: 70%;
-	padding: 20px;
+	padding: 3% 5%;
 	background-color:  #80e8c075;
 	border-radius: 5px;
 	margin: auto;
@@ -341,18 +344,18 @@ p {
 }
 
 .icon {
-	width: 50px;
-	height: 50px;
-	padding: 5px;
+	max-width: 50px;
+	max-height: 50px;
+	padding: 2%;
 }
 
 .project h2 {
-	padding: 20px 100px;
+	padding: 20px 10%;
 	color: #285d6d;
 }
 
 .project p {
-	padding: 5px 150px;
+	padding: 5px 10%;
 }
 
 .project img {
@@ -394,8 +397,12 @@ p {
 
 .projectFooter {
 	max-width: 60%;
-	height: 150px;
+	max-height: 100%
 	padding: 5px;
+}
+
+.projPageLink img {
+	height: auto;
 }
 
 .midLink {
@@ -403,7 +410,7 @@ p {
 	border-right: 1px solid #eee;
 }
 .projectLinks {
-	height: 200px;
+	max-height: 200px;
 	text-align: center;
 	margin: 0 80px;
 }
@@ -416,11 +423,11 @@ p {
 		line-height: 50px;
 }
 
-.projectLinks>.thumbnail {
+.projectLinks>.projPageLink {
 	border-bottom: 3px solid white;
 }
 
-.projectLinks>.thumbnail:hover {
+.projectLinks>.projPageLink:hover {
 	border-bottom: 3px solid #285d6d;
 }
 
@@ -438,4 +445,31 @@ p {
 #Prototype482 {
 	display: block;
 	margin: 0 auto;
+}
+
+@media (max-width: 700px) {
+   h2 {
+   	font-size: .98em;
+   }
+   h3, h4, p{ 
+      font-size: .95em; 
+   }
+   .specs h2 {
+   	  font-size: .95em;
+   }
+
+   li {
+   	font-size: .8em;
+   }
+
+   .jumbotron h1 {
+   	  font-size: 60pt;
+   }
+   .jumbotron p {
+   	  font-size: .95em;
+   }
+
+   .jumbotron {
+   	height: 450px;
+   }
 }
