@@ -37,8 +37,9 @@ a:hover {
 }
 
 section {
-	margin: 0;
-	padding: 5% 0 2% 0;
+	margin: auto;
+	padding: 80px 0 2% 0;
+
 }
 
 footer {
@@ -124,30 +125,35 @@ p {
 }
 
 /* Jumbotron */
-
+/*
 #landing-page {
-	margin: 0;
-	padding: 0;
-}
+	color: #000000;
+/*	background-image: url("1.png");*/
+/*	margin-top: 80px;
+	padding: 0 10% 0 10%;
+	margin-bottom: 20px;
+	height: 650px;
+}*/
 
 .jumbotron {
-	margin: 60px 10% 60px 10%;
+/*	margin: 60px 10% 60px 10%;
 	padding-left: 5%;
-	padding-right: 10%;
-	height: 650px;
+	padding-right: 10%;*/
 	background: url("../images/jumbotron_background.png") no-repeat center center; 
-    background-size: 100% 100%;
     -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
     -o-background-size: 100% 100%;
     background-size: 100% 100%;
+	padding: 40px 10% 0 10%;
+	margin: 0 0 20px 0;
+	height: 650px;
 }
 
 .jumbotron > p {
 	font-weight: 300;
 	font-size: 1.5em;
 	color: #000000;
-	padding: 0 50px 0 10px ;
+	padding-left: 10px;
 }
 
 .jumbotron > h1 {
@@ -155,7 +161,7 @@ p {
 	font-weight: bold;
 	font-size: 85pt;
 	color: #285d6d;
-	padding-right: 50px;
+/*	padding-right: 50px;*/
 }
 
 /* General Section Formatting */
@@ -163,12 +169,12 @@ p {
 /* Projects Section */
 
 
-#project-section > h1 {
+/*#project-section > h1 {
 	padding: 0 10%;
-}
+}*/
 
 .project-link-row .row{
-	margin: 40px 10%;
+	margin: 2% 2%;
 	border-left: 3px solid #fff;
 	border-right: 3px solid #fff; 
 	max-height: 300px;
@@ -249,10 +255,10 @@ p {
 
 /* Resume Section */
 
-#resume-section > h1 {
+/*#resume-section > h1 {
 	padding: 0 100px;
 	display: inline-block;
-}
+}*/
 
 .download-resume {
 	float: right;
@@ -270,18 +276,18 @@ p {
 
 /* About Me Section */
 
-#about-section > h1 {
+/*#about-section > h1 {
 	padding: 0 10%;
-}
+}*/
 
 #about-section .row {
-	padding: 20px 10%;
+	padding: 2% 2%;
 	margin: auto;
 }
 
-#about-section {
+/*#about-section {
 	padding: 100px 0 0 0;
-}
+}*/
 
 
 /* Bottom Nav */
@@ -452,7 +458,7 @@ p {
 	margin: 0 auto;
 }
 
-@media (max-width: 700px) {
+/*@media (max-width: 700px) {
    h2 {
    	font-size: .98em;
    }
@@ -481,4 +487,4 @@ p {
    #project-section h2 {
    	font-size: 22pt;
    }
-}
+}*/
