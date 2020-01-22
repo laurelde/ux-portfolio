@@ -1,0 +1,479 @@
+/* COLORS:
+light blue: ##dae5e8;
+light teal: #80e8c075;
+mid teal: #5ccbc0;
+dark teal: #285d6d;
+bright yellow: #FFFB19;
+white: #ffffff;
+light gray: #eee;
+mid gray: #A3A3A3;
+dark gray: #2e2e2e;
+black: #000000;
+'white':#f8f9fa
+
+
+FONTS:
+;
+*/
+
+/* Generic Formatting */
+html {
+	scroll-behavior: smooth;
+	background-color: white;
+}
+
+hr {
+	margin: 0 10% 0 10%;
+	display: block;
+	align-content: center;
+}
+
+a {
+	color: black;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+section {
+	margin: 0;
+	padding: 100px 0 50px 0;
+}
+
+footer {
+	margin: 30px 0;
+}
+
+  /* NavBar */
+.navbar {
+	padding: 0 9%;
+	background-color: #fff;
+	height: 60px;
+}
+
+.navbar .navbar-nav>li {
+	padding: 3px 5px;
+	font-weight: 300;
+	letter-spacing: 3px;
+}
+
+.nav-item {
+	padding: 0;
+	margin: 0;
+	border: none;
+}
+
+.navbar .navbar-nav .nav-link {
+	color: #285d6d;
+	border-bottom: 1px solid #fff;
+	text-transform: uppercase;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+	border-bottom: 1px solid #285d6d;
+	color: #285d6d;
+}
+.navbar .navbar-brand {
+	color: #285d6d;
+	font-weight: 300;
+	letter-spacing: 3px;
+}
+
+.navbar .navbar-brand:hover {
+	color: #285d6d;
+}
+/* General Font & Background */
+
+h1 {
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-weight: 500;
+	font-size: 35pt;
+	color: #285d6d;
+}
+
+h2 {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
+	font-size: 25pt;
+}
+
+h3 {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 300;
+	font-size: 20pt;
+	color: #000;
+}
+
+h4 {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 300;
+	font-size: 15pt;
+}
+
+h5 {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 200;
+	font-size: 10pt;
+}
+
+p {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 200;
+	font-size: 16pt;
+}
+
+/* Jumbotron */
+
+#landing-page {
+	margin: 0;
+	padding: 0;
+}
+
+.jumbotron {
+	margin: 60px 10% 60px 10%;
+	padding: 60px;
+	height: 650px;
+	background: url("../images/jumbotron_background.png") no-repeat center center; 
+    background-size: 100% 100%;
+}
+
+.jumbotron > p {
+	font-weight: 300;
+	font-size: 1.5em;
+	color: #000000;
+	padding: 0 50px 0 10px ;
+}
+
+.jumbotron > h1 {
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-weight: bold;
+	font-size: 85pt;
+	color: #285d6d;
+	padding-right: 50px;
+}
+
+/* General Section Formatting */
+
+/* Projects Section */
+
+
+#project-section > h1 {
+	padding: 0 100px;
+}
+
+.project-link-row .row{
+	margin: 40px 10%;
+	border-left: 3px solid #fff;
+	border-right: 3px solid #fff; 
+	max-height: 300px;
+}
+
+.project-blurb {
+	max-width: 100%;
+}
+
+.project-blurb > h2, h3, h4 {
+	padding: 0;
+	margin: 0;
+	vertical-align: center;
+}
+
+.project-image {
+	padding: 0;
+	margin: 0;
+}
+
+.project-image .thumbnail {
+	display: block;
+	text-align: center;
+	vertical-align: center; 
+}
+
+.thumbnail {
+	height: 100%;
+	border: none;
+	margin: auto;
+}
+
+
+.project-image  img {
+	max-height: 200px;
+}
+
+.project-blurb h2 {
+	color: #285d6d;
+	font-weight: 300;
+	margin: 20px 0;
+	font-size: 2.25em;
+}
+
+.project-blurb  h3 {
+	color: #2e2e2e;
+	font-weight: 300;
+	font-size: 1.5em;
+	margin: 3% 0;
+}
+
+.project-blurb > h4 {
+	color: #5ccbc0;
+}
+
+.thumbnail img {
+	max-height: 100%;
+	min-height: none;
+	width: auto;
+	border: none;
+	display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.row-right {
+	text-align: right;
+}
+
+.row-left:hover {
+	border-left: 3px solid #285d6d;
+}
+
+.row-right:hover {
+	border-right: 3px solid #285d6d;
+}
+
+/* Resume Section */
+
+#resume-section > h1 {
+	padding: 0 100px;
+	display: inline-block;
+}
+
+.download-resume {
+	float: right;
+	margin-right: 100px;
+	margin-top: 20px;
+}
+
+#resume {
+	display: block;
+	margin: auto;
+	margin-top: 50px;
+	max-width: 90%;
+	border-bottom: 3px solid #285d6d;
+}
+
+/* About Me Section */
+
+#about-section > h1 {
+	padding: 0 100px;
+}
+
+#about-section .row {
+	padding: 20px 10%;
+	margin: auto;
+}
+
+#about-section {
+	padding: 100px 0 0 0;
+}
+
+
+/* Bottom Nav */
+.copyright {
+	display: block;
+	margin: auto;
+	margin-bottom: none;
+	text-align: center;
+	color: #A3A3A3;
+}
+
+.navbar-bottom {
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+    font-size: 15pt;
+    display: inline-block
+    width: 100%;
+}
+
+.navbar-bottom li {
+	margin: 0 6px;
+}
+
+.navbar-bottom i {
+	color: #285d6d;
+}
+
+
+/* Project Pages */
+
+.project {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.projectType {
+	margin: 130px 0 100px 0;
+	text-align: center;
+	font-size: 40pt;
+}
+
+.specs {
+	width: 70%;
+	padding: 3% 5%;
+	background-color:  #80e8c075;
+	border-radius: 5px;
+	margin: auto;
+	line-height: 12px;
+	text-align: center;
+}
+
+.specs h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 1.75em;
+    text-align: center;
+}
+
+.specs .row {
+	line-height: 12px;
+	padding: 15px 30px;
+}
+
+.icon {
+	max-width: 50px;
+	max-height: 50px;
+	padding: 2%;
+}
+
+.project h2 {
+	padding: 20px 10%;
+	color: #285d6d;
+}
+
+.project p {
+	padding: 5px 10%;
+}
+
+.project img {
+	display: block;
+	margin: auto;
+	max-width: 90%;
+	padding: 20px 10px;
+}
+
+.project .left-block {
+	margin-left: 10%;
+	margin-right: auto;
+}
+
+.project .right-block {
+	margin-right: 10%;
+	margin-left: auto;
+}
+
+.project .left-block .bottom-image {
+	padding-bottom: 30px;
+}
+
+.project .list-items {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 200;
+	font-size: 16pt;
+}
+
+.project li {
+	padding: 0 150px;
+	list-style: inside disc;
+}
+
+.nav-other-projects {
+	padding:0;
+	margin: 20px 60px;
+}
+
+.projectFooter {
+	max-width: 60%;
+	max-height: 100%
+	padding: 5px;
+}
+
+.projPageLink img {
+	height: auto;
+}
+
+.midLink {
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+}
+.projectLinks {
+	max-height: 200px;
+	text-align: center;
+	margin: 0 80px;
+}
+
+.row .projectLinks {
+	margin: 10px;
+}
+
+.projectLinks h3 {
+		line-height: 50px;
+}
+
+.projectLinks>.projPageLink {
+	border-bottom: 3px solid white;
+}
+
+.projectLinks>.projPageLink:hover {
+	border-bottom: 3px solid #285d6d;
+}
+
+/* Classify Page */
+
+#wireframeInt {
+	border: 1px solid black;
+	margin: 5px 5px;
+}
+
+.wireframes {
+	padding: 5px 100px;
+}
+
+#Prototype482 {
+	display: block;
+	margin: 0 auto;
+}
+
+@media (min-width: 576px) {
+   h2 {
+   	font-size: .98em;
+   }
+   h3, h4, p{ 
+      font-size: .95em; 
+   }
+   .specs h2 {
+   	  font-size: .95em;
+   }
+
+   li {
+   	font-size: .8em;
+   }
+
+   .jumbotron h1 {
+   	  font-size: 60pt;
+   }
+   .jumbotron p {
+   	  font-size: .95em;
+   }
+
+   .jumbotron {
+   	height: 450px;
+   }
+
+   #project-section h2 {
+   	font-size: 22pt;
+   }
+}
