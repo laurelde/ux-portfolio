@@ -270,7 +270,7 @@ p {
 }
 
 #about-section .row {
-	padding: 20px 100px;
+	padding: 20px 10%;
 	margin: auto;
 }
 
@@ -300,7 +300,7 @@ p {
 }
 
 .navbar-bottom li {
-	margin: 0 10px;
+	margin: 0 6px;
 }
 
 .navbar-bottom i {
@@ -471,5 +471,9 @@ p {
 
    .jumbotron {
    	height: 450px;
+   }
+
+   #project-section h2 {
+   	font-size: 22pt;
    }
 }
