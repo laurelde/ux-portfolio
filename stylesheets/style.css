@@ -447,7 +447,7 @@ p {
 	margin: 0 auto;
 }
 
-@media (max-width: 700px) {
+@media (min-width: 576px) {
    h2 {
    	font-size: .98em;
    }
