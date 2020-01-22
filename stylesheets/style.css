@@ -46,6 +46,7 @@ footer {
 	margin: 30px 0;
 }
 
+
   /* NavBar */
 .navbar {
 	padding: 0 9%;
@@ -63,6 +64,7 @@ footer {
 	padding: 0;
 	margin: 0;
 	border: none;
+	background-color: #fff;
 }
 
 .navbar .navbar-nav .nav-link {
@@ -77,13 +79,18 @@ footer {
 }
 .navbar .navbar-brand {
 	color: #285d6d;
-	font-weight: 300;
-	letter-spacing: 3px;
+	padding-bottom: 5px;
+}
+
+.navbar .navbar-brand img {
+	height: 25px;
+	width: 80px;
 }
 
 .navbar .navbar-brand:hover {
 	color: #285d6d;
 }
+
 /* General Font & Background */
 
 h1 {
@@ -125,15 +132,10 @@ p {
 }
 
 /* Jumbotron */
-/*
+
 #landing-page {
-	color: #000000;
-/*	background-image: url("1.png");*/
-/*	margin-top: 80px;
-	padding: 0 10% 0 10%;
-	margin-bottom: 20px;
-	height: 650px;
-}*/
+	padding-top: 60px;
+}
 
 .jumbotron {
 /*	margin: 60px 10% 60px 10%;
@@ -154,6 +156,7 @@ p {
 	font-size: 1.5em;
 	color: #000000;
 	padding-left: 10px;
+	padding-right: 20px;
 }
 
 .jumbotron > h1 {
@@ -161,7 +164,7 @@ p {
 	font-weight: bold;
 	font-size: 85pt;
 	color: #285d6d;
-/*	padding-right: 50px;*/
+	padding-right: 50px;
 }
 
 /* General Section Formatting */
