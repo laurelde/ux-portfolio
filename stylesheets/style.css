@@ -154,7 +154,7 @@ p {
     -moz-background-size: 100% 100%;
     -o-background-size: 100% 100%;
     background-size: 100% 100%;
-	padding: 40px 10% 0 10%;
+	padding: 60px 10% 0 10%;
 	margin: 0 0 40px 0;
 	height: 650px;
 }
@@ -476,8 +476,8 @@ p {
    .navbar {
    	padding-right: 0;
    	padding-left: 0;
-   	margin-right: 0;
-   	margin-left: 0;
+   	margin-right: 2%;
+   	margin-left: 2%;
    }
    h2 {
    	font-size: .98em;
