@@ -420,6 +420,12 @@ p {
 	margin: 20px 6%;
 }
 
+.nav-other-projects h4 {
+	padding:0;
+	margin: 20px 6%;
+	line-height: 1em;
+}
+
 .projectFooter {
 	max-width: 60%;
 	max-height: 100%
