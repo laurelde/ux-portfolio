@@ -181,8 +181,8 @@ p {
 
 .project-link-row .row{
 	margin: 2% 2%;
-	border-left: 3px solid #fff;
-	border-right: 3px solid #fff; 
+	border-left: 5px solid #fff;
+	border-right: 5px solid #fff; 
 	max-height: 300px;
 }
 
@@ -246,15 +246,20 @@ p {
 
 .row-right {
 	text-align: right;
+	padding-right: 30px;
+}
+
+.row-left {
+	padding-left: 30px;
 }
 
 
 .row-left:hover {
-	border-left: 3px solid #285d6d;
+	border-left: 5px solid #285d6d;
 }
 
 .row-right:hover {
-	border-right: 3px solid #285d6d;
+	border-right: 5px solid #285d6d;
 }
 
 /* Resume Section */
@@ -427,7 +432,7 @@ p {
 .projectLinks {
 	max-height: 200px;
 	text-align: center;
-	margin: 0 80px;
+	margin: 0 5%;
 }
 
 .row .projectLinks {
@@ -486,7 +491,7 @@ p {
     -moz-background-size: 100% 100%;
     -o-background-size: 100% 100%;
     background-size: 100% 100%;
-	padding: 40px 10% 0 10%;
+	padding: 40px 10% 0 0;
 	margin: 0 0 20px 0;
 	height: 350px;
 	}
@@ -499,7 +504,7 @@ p {
    }
 
    .jumbotron {
-   	height: 450px;
+   	  height: 450px;
    }
 
    #project-section h2 {
@@ -507,7 +512,18 @@ p {
    }
 
    .navbar-bottom li {
-	margin: 0 6px;
+	  margin: 0 6px;
+	}
 
-}
+	.row-right, .row-left {
+   	max-height: 200px;
+   }
+
+   .row-right {
+	padding-right: 15px;
+	}
+
+	.row-left {
+	padding-left: 15px;
+	}
 }
