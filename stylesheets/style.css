@@ -285,7 +285,7 @@ p {
 	margin: auto;
 	margin-top: 50px;
 	max-width: 90%;
-	border-bottom: 3px solid #285d6d;
+	border: 3px solid #285d6d;
 }
 
 /* About Me Section */
