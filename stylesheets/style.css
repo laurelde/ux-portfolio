@@ -35,6 +35,7 @@ hr {
 
 a {
 	color: black;
+	font-size: .90rem;
 }
 
 a:hover {
@@ -54,9 +55,20 @@ footer {
 
   /* NavBar */
 .navbar {
-	padding: 0 9%;
-	background-color: #fff;
-	height: 60px;
+	padding: 0 5%;
+    background-color: #fff;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+.navbar-nav {
+	flex-wrap: nowrap;
+}
+
+.navbar .navbar-collapse {
+	justify-content: flex-end;
 }
 
 .navbar .navbar-nav>li {
@@ -98,6 +110,21 @@ footer {
 .navbar .navbar-brand:hover {
 	color: #285d6d;
 }
+.navbar-bottom {  
+	display: flex;
+    justify-content: center;
+}
+
+#brand {
+	flex-wrap: nowrap;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	}
+main {
+	margin: 0 5%;
+	min-width: 500px;
+}
 
 /* General Font & Background */
 
@@ -136,7 +163,7 @@ h5 {
 p {
 	font-family: 'Quicksand', sans-serif;
 	font-weight: 200;
-	font-size: 16pt;
+	font-size: 1.2em;
 }
 
 /* Jumbotron */
@@ -146,9 +173,6 @@ p {
 }
 
 .jumbotron {
-/*	margin: 60px 10% 60px 10%;
-	padding-left: 5%;
-	padding-right: 10%;*/
 	background: url("../images/jumbotron_background.png") no-repeat center center; 
     -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
@@ -156,12 +180,11 @@ p {
     background-size: 100% 100%;
 	padding: 60px 10% 0 10%;
 	margin: 0 0 40px 0;
-	height: 650px;
+	height: 450px;
 }
 
 .jumbotron > p {
 	font-weight: 300;
-	font-size: 1.5em;
 	color: #000000;
 	padding-left: 10px;
 	padding-right: 20px;
@@ -170,19 +193,12 @@ p {
 .jumbotron > h1 {
 	font-family: 'Montserrat Alternates', sans-serif;
 	font-weight: bold;
-	font-size: 85pt;
+	font-size: 75px;
 	color: #285d6d;
 	padding-right: 50px;
 }
 
-/* General Section Formatting */
-
 /* Projects Section */
-
-
-/*#project-section > h1 {
-	padding: 0 10%;
-}*/
 
 .project-link-row .row{
 	margin: 2% 2%;
@@ -214,7 +230,6 @@ p {
 	border: none;
 	margin: auto;
 }
-
 
 .project-image  img {
 	max-height: 200px;
@@ -269,11 +284,6 @@ p {
 
 /* Resume Section */
 
-/*#resume-section > h1 {
-	padding: 0 100px;
-	display: inline-block;
-}*/
-
 .download-resume {
 	float: right;
 	margin-right: 10%;
@@ -290,19 +300,15 @@ p {
 
 /* About Me Section */
 
-/*#about-section > h1 {
-	padding: 0 10%;
-}*/
 
 #about-section .row {
 	padding: 2% 2%;
 	margin: auto;
 }
 
-/*#about-section {
-	padding: 100px 0 0 0;
-}*/
-
+#headshot img {
+	height: fit-content;
+}
 
 /* Bottom Nav */
 .copyright {
@@ -341,9 +347,9 @@ p {
 }
 
 .projectType {
-	margin: 130px 0 100px 0;
+	margin: 110px 0 50px 0;
 	text-align: center;
-	font-size: 40pt;
+	font-size: 35pt;
 }
 
 .specs {
@@ -355,17 +361,12 @@ p {
 	line-height: 12px;
 	text-align: center;
 }
-
 .specs h2 {
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 400;
-    font-size: 1.75em;
-    text-align: center;
+	font-size: .95em;
 }
-
 .specs .row {
-	line-height: 12px;
-	padding: 15px 5%;
+	padding: 5px 5%;
+	flex-wrap: nowrap;
 }
 
 .icon {
@@ -416,8 +417,8 @@ p {
 }
 
 .nav-other-projects {
-	padding:0;
-	margin: 20px 6%;
+	padding: 0;
+    margin: 0 6% 20px 6%;
 }
 
 .nav-other-projects h4 {
@@ -428,7 +429,7 @@ p {
 
 .projectFooter {
 	max-width: 60%;
-	max-height: 100%
+	max-height: 100%;
 	padding: 5px;
 }
 
@@ -483,71 +484,68 @@ iframe {
 	height: auto;
 }
 
-
-@media (max-width: 768px) {
-   .navbar {
-   	padding-right: 0;
-   	padding-left: 0;
-   	margin-right: 4%;
-   	margin-left: 4%;
-   }
-   h2 {
-   	font-size: .98em;
-   }
-   h3, h4, p{ 
-      font-size: .95em; 
-   }
-   .specs h2 {
-   	  font-size: .95em;
-   }
-
-   li {
-   	font-size: .6em;
-   }
-
-	.jumbotron {
-	/*	margin: 60px 10% 60px 10%;
-	padding-left: 5%;
-	padding-right: 10%;*/
-	background: url("../images/jumbotron_background.png") no-repeat center center; 
-    -webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    -o-background-size: 100% 100%;
-    background-size: 100% 100%;
-	padding: 40px 10% 0 0;
-	margin: 0 0 20px 0;
-	height: 350px;
-	}
-
-   .jumbotron h1 {
-   	  font-size: 60px;
-   }
-   .jumbotron p {
-   	  font-size: .95em;
-   }
-
-   .jumbotron {
-   	  height: 450px;
-   }
-
-   #project-section h2 {
-   	font-size: 20pt;
-   }
-
-   .navbar-bottom li {
-	  margin: 0 6px;
-	}
-
-   .row-right, .row-left {
-   	max-height: 200px;
-   }
-
-   .row-right {
-	padding-right: 15px;
-	}
-
-	.row-left {
-	padding-left: 15px;
-	}
-
+.navbar-bottom li {
+	margin: 0 6px;
 }
+
+.row-right, .row-left {
+max-height: 200px;
+}
+
+.row-right {
+padding-right: 15px;
+}
+
+.row-left {
+padding-left: 15px;
+}
+#headshot {
+	display: flex;
+	justify-content: center;
+}
+
+@media (min-width: 768px) {
+
+
+	/* Homepage */
+	.jumbotron {		
+		background: url("../images/jumbotron_background.png") no-repeat center center; 
+		-webkit-background-size: 100% 100%;
+		-moz-background-size: 100% 100%;
+		-o-background-size: 100% 100%;
+		background-size: 100% 100%;
+		padding: 60px 10% 0 10%;
+		margin: 0 0 40px 0;
+		height: 650px;
+	}
+	
+	.jumbotron > p {
+		font-weight: 300;
+		font-size: 1.5em;
+		color: #000000;
+		padding-left: 10px;
+		padding-right: 20px;
+	}
+	
+	.jumbotron > h1 {
+		font-family: 'Montserrat Alternates', sans-serif;
+		font-weight: bold;
+		font-size: 85pt;
+		color: #285d6d;
+		padding-right: 50px;
+	}
+
+
+	/* Project Pages */
+	.projectType {
+		font-size: 40pt;
+	}
+
+	.specs .row {
+		padding: 15px 5%;
+	}
+
+	.specs h2 {
+		font-size: 1.25em;
+	}
+} 
