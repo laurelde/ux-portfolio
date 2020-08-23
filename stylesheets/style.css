@@ -521,7 +521,7 @@ padding-left: 15px;
 	
 	.jumbotron > p {
 		font-weight: 300;
-		font-size: 1.95em;
+		font-size: 1.75em;
 		color: #000000;
 		padding-left: 10px;
 		padding-right: 20px;
@@ -531,7 +531,7 @@ padding-left: 15px;
 	.jumbotron > h1 {
 		font-family: 'Montserrat Alternates', sans-serif;
 		font-weight: bold;
-		font-size: 95pt;
+		font-size: 85pt;
 		color: #285d6d;
 		padding-right: 50px;
 	}
