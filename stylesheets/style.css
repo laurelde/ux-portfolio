@@ -521,16 +521,17 @@ padding-left: 15px;
 	
 	.jumbotron > p {
 		font-weight: 300;
-		font-size: 1.5em;
+		font-size: 1.95em;
 		color: #000000;
 		padding-left: 10px;
 		padding-right: 20px;
+		margin-bottom: 0;
 	}
 	
 	.jumbotron > h1 {
 		font-family: 'Montserrat Alternates', sans-serif;
 		font-weight: bold;
-		font-size: 85pt;
+		font-size: 95pt;
 		color: #285d6d;
 		padding-right: 50px;
 	}
